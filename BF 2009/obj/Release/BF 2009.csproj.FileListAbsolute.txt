@@ -1,0 +1,21 @@
+C:\Users\user\staj\BF 2009\BF 2009\bin\Release\BF 2009.exe
+C:\Users\user\staj\BF 2009\BF 2009\bin\Release\BF 2009.pdb
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\ResolveAssemblyReference.cache
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Form1.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Game.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Properties.Resources.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Start.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF 2009.csproj.GenerateResource.Cache
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF 2009.exe
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF 2009.pdb
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Takim.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Arama.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Taktik.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Train.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Yukleme.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Kontrat.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.PDetail.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.TStatus.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Finans.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Interact.resources
+C:\Users\user\staj\BF 2009\BF 2009\obj\Release\BF_2009.Fix.resources

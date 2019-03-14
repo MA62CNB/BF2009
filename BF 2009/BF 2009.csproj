@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F0B1CC58-0A0C-4D38-9120-4208CCE8F6BF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BF_2009</RootNamespace>
+    <AssemblyName>BF 2009</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arama.Designer.cs">
+      <DependentUpon>Arama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finans.Designer.cs">
+      <DependentUpon>Finans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fix.Designer.cs">
+      <DependentUpon>Fix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interact.Designer.cs">
+      <DependentUpon>Interact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kontrat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kontrat.Designer.cs">
+      <DependentUpon>Kontrat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDetail.Designer.cs">
+      <DependentUpon>PDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Arama.resx">
+      <DependentUpon>Arama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finans.resx">
+      <DependentUpon>Finans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fix.resx">
+      <DependentUpon>Fix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interact.resx">
+      <DependentUpon>Interact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kontrat.resx">
+      <DependentUpon>Kontrat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDetail.resx">
+      <DependentUpon>PDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Takim.resx">
+      <DependentUpon>Takim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taktik.resx">
+      <DependentUpon>Taktik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Train.resx">
+      <DependentUpon>Train.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TStatus.resx">
+      <DependentUpon>TStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yukleme.resx">
+      <DependentUpon>Yukleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Takim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Takim.Designer.cs">
+      <DependentUpon>Takim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taktik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taktik.Designer.cs">
+      <DependentUpon>Taktik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Train.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Train.Designer.cs">
+      <DependentUpon>Train.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TStatus.Designer.cs">
+      <DependentUpon>TStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yukleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yukleme.Designer.cs">
+      <DependentUpon>Yukleme.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\gazete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bjk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\gs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ants.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\as.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bjk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\dbs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\eses.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\gas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\gb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\gs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ibbs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ms.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ts.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
